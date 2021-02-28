@@ -1,0 +1,24 @@
+{
+  "name": "Crunchyroll iFrame Player",
+  "version": "1.1.0",
+  "description": "Allows the use of JWPlayer on Crunchyroll.",
+  "author": "itallolegal",
+  "icons": { "48": "icon.png" },
+  "browser_action": {
+    "default_title": "Crunchyroll iFrame Player",
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.crunchyroll.com/*",
+        "https://www.crunchyroll.com/*"
+      ],
+      "css": ["content.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
