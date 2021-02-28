@@ -8,9 +8,8 @@ First of all, yes, it allows you to watch any anime on Crunchyroll for free beca
 
 ## Installation
 
-1. Download the zip of your corresponding platform, you can find it [here](https://google.com)
-<br> 
-OBS: Kiwi Browser is a Android browser based on chrome that allows you to add extensions.
+1. Download the zip of your corresponding platform, you can find it [here](https://github.com/Sazzo/crunchy/releases/tag/1.1.0)
+- OBS: Kiwi Browser is a Android browser based on chrome that allows you to add extensions.
 
 2. In your browser, go to ``chrome://extensions`` and enable developer mode.
 
